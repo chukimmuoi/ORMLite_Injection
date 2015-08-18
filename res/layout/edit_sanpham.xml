@@ -1,0 +1,120 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/white"
+    android:padding="7dp">
+ 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+ 
+        <TextView
+            android:id="@+id/labelProductId"
+            android:layout_width="0px"
+            android:layout_weight="4"
+            android:layout_height="wrap_content"
+            android:text="@string/productid_label"
+            android:textColor="@android:color/black"
+            android:textSize="16sp" />
+ 
+        <EditText
+            android:id="@+id/edit_sanpham_etId"
+            android:layout_weight="6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+ 
+    </LinearLayout>
+ 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+ 
+        <TextView
+            android:id="@+id/labelProductName"
+            android:layout_width="0px"
+            android:layout_weight="4"
+            android:layout_height="wrap_content"
+            android:text="@string/productname_label"
+            android:textColor="@android:color/black"
+            android:textSize="16sp" />
+ 
+        <EditText
+            android:id="@+id/edit_sanpham_etMoTa"
+            android:layout_weight="6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+ 
+    </LinearLayout>
+ 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+ 
+        <TextView
+            android:id="@+id/labelProductPrice"
+            android:layout_width="0px"
+            android:layout_weight="4"
+            android:layout_height="wrap_content"
+            android:text="@string/productprice_label"
+            android:textColor="@android:color/black"
+            android:textSize="16sp" />
+ 
+        <EditText
+            android:id="@+id/edit_sanpham_etGia"
+            android:layout_weight="6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+ 
+    </LinearLayout>
+ 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+ 
+        <TextView
+            android:id="@+id/labelProductQuantity"
+            android:layout_width="0px"
+            android:layout_weight="4"
+            android:layout_height="wrap_content"
+            android:text="@string/productqty_label"
+            android:textColor="@android:color/black"
+            android:textSize="16sp" />
+ 
+        <EditText
+            android:id="@+id/edit_sanpham_etSoLuong"
+            android:layout_weight="6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+ 
+    </LinearLayout>
+ 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+ 
+        <Button
+            android:id="@+id/edit_sanpham_btnSave"
+            android:layout_width="0px"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/productbutton_save_label"
+            android:background="@drawable/custom_button_radius" 
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+            android:layout_marginRight="5dp" />
+ 
+        <Button
+            android:id="@+id/edit_sanpham_btnDelete"
+            android:layout_width="0px"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/productbutton_delete_label"
+            android:background="@drawable/custom_button_radius"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+            android:layout_marginLeft="5dp" />
+ 
+    </LinearLayout>
+ 
+</LinearLayout>
