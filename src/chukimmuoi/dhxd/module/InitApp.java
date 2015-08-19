@@ -1,4 +1,4 @@
-package chukimmuoi.dhxd.ormlite_injection;
+package chukimmuoi.dhxd.module;
 
 import chukimmuoi.dhxd.utils.DatabaseHelper;
 import android.app.Application;

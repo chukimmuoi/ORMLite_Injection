@@ -2,8 +2,7 @@ package chukimmuoi.dhxd.ormlite_injection;
 
 import java.sql.SQLException;
 
-import javax.inject.Inject;
-
+import com.google.inject.Inject;
 import android.view.Menu;
 import android.view.View.OnClickListener;
 import android.content.Intent;
@@ -13,10 +12,10 @@ import android.widget.Button;
 import android.widget.EditText;
 import chukimmuoi.dhxd.model.SanPham;
 import chukimmuoi.dhxd.myinterface.ISanPham;
-import chukimmuoi.dhxd.ormlite_injection.R;
 import roboguice.activity.RoboActivity;
 import roboguice.inject.ContentView;
 import roboguice.inject.InjectView;
+import chukimmuoi.dhxd.module.R;
 
 @ContentView(R.layout.edit_sanpham)
 public class EditSanPhamActicity extends RoboActivity{

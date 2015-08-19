@@ -2,15 +2,14 @@ package chukimmuoi.dhxd.adapter;
 
 import java.util.List;
 
-import chukimmuoi.dhxd.model.SanPham;
-import chukimmuoi.dhxd.ormlite_injection.R;
-
 import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.TextView;
+import chukimmuoi.dhxd.model.SanPham;
+import chukimmuoi.dhxd.module.R;
 
 public class SanPhamAdapter extends BaseAdapter{
 	private List<SanPham> sanphamList;

@@ -2,7 +2,7 @@ package chukimmuoi.dhxd.controller;
 
 import java.sql.SQLException;
 import java.util.List;
-import javax.inject.Inject;
+import com.google.inject.Inject;
 import android.content.Context;
 import com.j256.ormlite.dao.Dao;
 import chukimmuoi.dhxd.dao.SanPhamDao;
